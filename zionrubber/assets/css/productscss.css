@@ -49,6 +49,7 @@
   margin:auto;
   column-gap: 30px;
   row-gap: 160px;  
+  margin-bottom: 20px;
 }
 .product-modal {
   pointer-events: auto;
@@ -349,4 +350,15 @@
   font-size: 35px;
   cursor: pointer;
   
+}
+@media (max-width:768px){
+
+.products-row{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    width:100%;
+    padding:0 15px;
+}
+
 }
