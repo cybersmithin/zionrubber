@@ -1,0 +1,152 @@
+.cont .card-item {
+
+  padding: 70px 60px;
+  transition: all ease-in-out 0.3s;
+  height: 80%;
+  position: relative;
+  background: white;
+  color: #222;
+  border: 1px solid #eee;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.cont .card-item span {
+  color: var(--accent-color);
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.cont .card-item h4 {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0;
+  margin: 20px 0;
+}
+
+
+
+.cont .c-rd-item h4 a {
+  color:#d62828;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+
+.cont .c-rd-item a {
+  color:#d62828;
+}
+
+.cont .card-item p {
+  font-size: 15px;
+  color:white;
+  margin: 0;
+  padding: 0;
+}
+
+.cont .card-item:hover {
+  background:#d62828;
+  padding: 30px 30px 70px 30px;
+}
+
+.cont .card-item:hover span,
+.cont .card-item:hover h4 ,
+.cont .card-item:hover p,
+.cont .card-item:hover li,
+.cont .card-item:hover a{
+  color:white;
+}
+
+.custom-list {
+  list-style: none;   /* remove default bullets */
+  padding-left: 0;
+}
+
+.custom-list li {
+  position: relative;
+  padding-left: 30px;
+}
+
+.custom-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  background: url("whatsapp.png") no-repeat center;
+  background-size: contain;
+}
+
+.custom-list-phone {
+  list-style: none;   /* remove default bullets */
+  padding-left: 0;
+}
+
+.custom-list-phone li {
+  position: relative;
+  padding-left: 30px;
+}
+
+.custom-list-phone li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  background: url("phone.png") no-repeat center;
+  background-size: contain;
+}
+.custom-list-email {
+  list-style: none;   /* remove default bullets */
+  padding-left: 0;
+}
+
+.custom-list-email li {
+  position: relative;
+  padding-left: 30px;
+}
+.custom-list-email li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  background: url("gmail.png") no-repeat center;
+  background-size: contain;
+}
+.custom-list-phone li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  background: url("phone.png") no-repeat center;
+  background-size: contain;
+}
+.custom-list-emailus {
+  list-style: none;   /* remove default bullets */
+  padding-left: 0;
+}
+
+.custom-list-emailus li {
+  position: relative;
+  padding-left: 30px;
+}
+.custom-list-emailus li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  background: url("mail.png") no-repeat center;
+  background-size: contain;
+}
