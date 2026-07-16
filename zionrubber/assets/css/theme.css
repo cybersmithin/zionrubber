@@ -363,7 +363,14 @@ a:hover {
     font-size: 14px;
     padding: 8px 10px;
   }
-
+    .pmenu{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    width:100%;
+    padding:0 15px;
+    padding-right: 15%;
+  }
 }
 .herocont picture,
 .herocont img {
@@ -376,4 +383,21 @@ a:hover {
     height: auto;
 }
 
-
+@media (max-width: 768px) {
+  .swiper-slide img {
+    align-items: center;
+  }
+}
+.swiper-slide {
+  /*height: 150px;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 768px){
+  .blog{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+}

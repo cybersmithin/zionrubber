@@ -967,10 +967,14 @@ section,
   position: relative;
   overflow: hidden;*/
 }
-@media (max-width: 991px) {
+@media (max-width: 768px) {
   .herocont {
     padding-top: 80px;
     min-height: calc(100vh - 80px);
+  }
+  .herocont .img{
+    height: 768px;
+    width: 1200px;
   }
 }
 
@@ -979,6 +983,10 @@ section,
   .herocont {
     padding-top: 70px;
     min-height: calc(100vh - 70px);
+  }
+    .herocont .img{
+    height: 768px;
+    width: 1200px;
   }
 }
 .herocont img {
@@ -1148,22 +1156,30 @@ section,
 .herocont img {
     width: 100%;
     display: block;
+    height: 768px;
+    width: 1200px;
+
 }
 
 .herocont img {
     width: 100%;
     height: auto;
+    height: 768px;
+    width: 1200px;
 }
 }
 .herocont picture,
 .herocont img {
     width: 100%;
     display: block;
+        height: 768px;
+    width: 1200px;
 }
 
 .herocont img {
     width: 100%;
     height: auto;
+
 }
 
 /*--------------------------------------------------------------
