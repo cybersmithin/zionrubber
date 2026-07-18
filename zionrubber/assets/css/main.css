@@ -19,7 +19,7 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #0c0b09; /* Background color for the entire website, including individual sections */
+  --background-color: #0c0b09; 
   --default-color: rgba(255, 255, 255, 0.7); /* Default color used for the majority of the text content across the entire website */
   --heading-color: #ffffff; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #cda45e; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
@@ -967,10 +967,14 @@ section,
   position: relative;
   overflow: hidden;*/
 }
-@media (max-width: 991px) {
+@media (max-width: 768px) {
   .herocont {
     padding-top: 80px;
     min-height: calc(100vh - 80px);
+  }
+  .herocont .img{
+    height: 768px;
+    width: 1200px;
   }
 }
 
@@ -979,6 +983,10 @@ section,
   .herocont {
     padding-top: 70px;
     min-height: calc(100vh - 70px);
+  }
+    .herocont .img{
+    height: 768px;
+    width: 1200px;
   }
 }
 .herocont img {
@@ -1148,22 +1156,30 @@ section,
 .herocont img {
     width: 100%;
     display: block;
+    height: 768px;
+    width: 1200px;
+
 }
 
 .herocont img {
     width: 100%;
     height: auto;
+    height: 768px;
+    width: 1200px;
 }
 }
 .herocont picture,
 .herocont img {
     width: 100%;
     display: block;
+        height: 768px;
+    width: 1200px;
 }
 
 .herocont img {
     width: 100%;
     height: auto;
+
 }
 
 /*--------------------------------------------------------------
@@ -1333,11 +1349,13 @@ section,
 }
 
 .why-us .card-item:hover span,
-.why-us .card-item:hover h4 a,
+ a,
 .why-us .card-item:hover p {
   color: var(--contrast-color);
 }
-
+.why-us .card-item:hover h4{
+  color:white;
+}
 /*--------------------------------------------------------------
 # Menu Section
 --------------------------------------------------------------*/
