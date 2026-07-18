@@ -1349,11 +1349,13 @@ section,
 }
 
 .why-us .card-item:hover span,
-.why-us .card-item:hover h4 a,
+ a,
 .why-us .card-item:hover p {
   color: var(--contrast-color);
 }
-
+.why-us .card-item:hover h4{
+  color:white;
+}
 /*--------------------------------------------------------------
 # Menu Section
 --------------------------------------------------------------*/

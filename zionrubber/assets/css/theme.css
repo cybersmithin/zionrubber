@@ -111,10 +111,12 @@ a:hover {
     display: flex;
     margin: 10%;
 }
-.aboutcontainer .img{
-  border: 6px solid
-          color-mix(in srgb, var(--default-color), transparent 80%);
-     box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+.left .imgg{
+      border: 6px solid
+ color-mix(in srgb, var(--default-color), transparent 80%);
+  height:600px;
+  width:600px;
+
      
 }
 .left,
